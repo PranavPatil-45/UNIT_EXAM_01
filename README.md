@@ -113,5 +113,4 @@ Made with ❤️ by [Pranav Patil](https://github.com/PranavPatil-45)
 
 ---
 
-Let me know if you want me to include badges (like build status, license, etc.) or if you'd like a version that includes testing examples or screenshots!
-```
+
