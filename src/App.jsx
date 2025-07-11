@@ -1,8 +1,17 @@
 import { useState } from "react";
-
+import A from "./App.css";
 function App() {
 
-  const [counter, setcounter ]=useState(0)
+  const [counter, setcounter ]=useState(0);
+  
+  function isPrime(num) {
+     for (let i = 2; i < num; i++) {
+       if (num % i === 0) {
+         return false;
+       }
+     }
+     return num > 1;
+   }
 
   return (
 
@@ -22,7 +31,7 @@ function App() {
          {counter % 2 == 0? "Even" : "Odd"}
         </span>
         <span data-testid="is-prime">
-         
+         {isPrime(counter)?" true":" false"}
         </span>
       </div>
     </div>
